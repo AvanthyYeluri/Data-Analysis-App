@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import pickle
 from PIL import Image
-import shap
 import matplotlib.pyplot as plt
 
 def app():
