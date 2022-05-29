@@ -95,7 +95,7 @@ def app():
         #Age of the Car
         st.write("""
         ##### Age of the cars
-        Taking into account that the current year is 2022 the age of the car has been calculatedand that will be considered a feature rather than the given column *Year*
+        Taking into account that the current year is 2022 the age of the car has been calculated and that will be considered a feature rather than the given column *Year*
         """)
         df['Age'] = 2022-df['Year']
         fig = px.box(df, y='Age', color_discrete_sequence=['cadetblue'])
